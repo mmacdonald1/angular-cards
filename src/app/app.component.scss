@@ -1,0 +1,11 @@
+.playingCard{
+  width:50px;
+  margin: 10px;
+}
+.cardsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
