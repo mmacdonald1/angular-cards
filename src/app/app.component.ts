@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   deck=[]
-  title = 'angular-cards';
 
+  ngOnInit() {
+     this.makeDeck()
+  }
 
   shuffle=()=>{
     let i = this.deck.length

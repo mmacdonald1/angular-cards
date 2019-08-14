@@ -1,6 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div>total cards {{deck.length}}</div>
-<button (click)="makeDeck()">Make Deck</button>
 <button (click)="shuffle()">Shuffle</button>
 <div class="cardsContainer" *ngIf="deck">
   <div *ngFor="let card of deck">
