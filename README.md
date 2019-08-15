@@ -1,27 +1,34 @@
-# AngularCards
+# Angular Shuffle Cards App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+A simple app that creates a deck of cards and allows you to shuffle them.
 
-## Development server
+See it live: https://mmacdonald1.github.io/angular-cards/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+These instructions will allow you to run this project in your local environment.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone the repository onto your local machine.
 
-## Build
+```
+git clone git@github.com:mmacdonald1/angular-cards.git
+```
+Navigate into the file folder and install the dependencies.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+cd angular-cards
+npm i
+```
+Run the file using npm and the project will come up in a new tab on your browser.
 
-## Running unit tests
+```
+ng serve
+```
+## Built With
+* Angular - framework
+* Bootstrap - package that integrates the Bootstrap styling libary with React
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Thanks for the challenge. It was fun!
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![](https://media.giphy.com/media/11a9K7FLvTD9Kw/giphy.gif)

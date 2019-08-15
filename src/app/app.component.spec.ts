@@ -24,26 +24,5 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   });
-  it(`should have a button 'shuffle'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('button').textContent).toEqual('Shuffle');
-  });
-  it('should render 52 cards', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelectorAll('.playingCard').length).toBe(52);
-  });
-  it('should call method shuffle on shuffle button press', async(() => {
-      spyOn(component, 'shuffle')
-
-      let button = fixture.debugElement.nativeElement.querySelector('button');
-      button.click();
-
-      fixture.whenStable().then(() => {
-        expect(component.shuffle).toHaveBeenCalled();
-      });
-   }));
 
 });
