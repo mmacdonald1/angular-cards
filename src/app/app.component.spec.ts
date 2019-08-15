@@ -35,10 +35,8 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelectorAll('.playingCard').length).toBe(52);
   });
-  it('should shuffle on shuffle button press', async(() => {
-      spyOn(component, 'shuffle');
-
-      let unshuffledDeck= component.deck
+  it('should call method shuffle on shuffle button press', async(() => {
+      spyOn(component, 'shuffle')
 
       let button = fixture.debugElement.nativeElement.querySelector('button');
       button.click();

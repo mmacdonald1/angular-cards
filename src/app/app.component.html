@@ -1,11 +1,11 @@
+
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container mt-3 d-flex flex-column justify-content-center">
   <h1> Welcome To Angular Cards </h1>
   <button class="btn btn-primary shuffle m-3" (click)="shuffle()">Shuffle</button>
   <div class="cardsContainer" *ngIf="deck">
-    <div *ngFor="let card of deck">
-      <img class="playingCard" src={{card.img}} />
-    </div>
+    <app-card *ngFor="let card of deck" [card]="card">
+    </app-card>
   </div>
 </div>
 
