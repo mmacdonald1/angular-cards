@@ -2,7 +2,7 @@
 
 A simple app that creates a deck of cards and allows you to shuffle them.
 
-** Fun fact: If you have the AdBlock Chrome extension you won't be able to see the Ace of Diamonds (AD.png).
+** Fun fact: If you have the AdBlock Chrome extension on you won't be able to see the Ace of Diamonds (AD.png). Consider pausing to see all cards.
 
 See it live: https://mmacdonald1.github.io/angular-cards/
 
