@@ -19,7 +19,7 @@ Navigate into the file folder and install the dependencies.
 cd angular-cards
 npm i
 ```
-Run the file using npm and the project will come up in a new tab on your browser.
+Run the file using the command below and the project will come up in a new tab on your browser.
 
 ```
 ng serve
