@@ -26,7 +26,7 @@ ng serve
 ```
 ## Built With
 * Angular - framework
-* Bootstrap - package that integrates the Bootstrap styling libary with React
+* Bootstrap - styling library
 
 Thanks for the challenge. It was fun!
 
