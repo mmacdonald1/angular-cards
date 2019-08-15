@@ -7,6 +7,7 @@ import { Card } from '../models/Card'
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
+  //declare card property in typescript with Card model
   @Input() card: Card;
   constructor() { }
 

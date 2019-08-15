@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-container.component.scss']
 })
 export class CardContainerComponent implements OnInit {
-
+  //declare deck property
   deck=[]
 
+  // Lifecycle hook to run when component mounts
   ngOnInit() {
      this.makeDeck()
   }
@@ -32,6 +33,9 @@ export class CardContainerComponent implements OnInit {
     let values=["2","3","4","5","6","7","8","9","10","J","Q","K", "A"]
     let suits=["H", "S", "D", "C"]
     let i = 0
+    //for each value and each suit iterate through the arrays until all suit
+    //and value combinations have been used. Use i to count total cards and set id.
+    //concatinate img src path to find correct image
     for(let j=0; j<13; j++){
      for(let k=0; k<4; k++){
        this.deck[i] = {}

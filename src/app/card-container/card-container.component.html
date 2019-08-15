@@ -1,9 +1,18 @@
+<!--Bootstrap card-->
 <div class="container mt-3 mb-5 card p-3 pt-4">
+
   <h1 class="text-center mb-2"> Welcome To Angular Cards </h1>
+
+  <!--Button with click event binding to shuffle property-->
   <div class="d-flex flex-column justify-content-center align-items-center">
     <img class="headerImage" src="./assets/images/back_cards-07.png"/>
     <button class="btn btn-primary shuffle m-3" (click)="shuffle()">Shuffle</button>
   </div>
+
+  <!-- Cards put in with directives.
+  If deck has a value iterate over each card in the deck and output card component.
+  Bind card value to card component.
+  -->
   <div class="d-flex flex-row flex-wrap justify-content-center align-items-center" *ngIf="deck">
     <app-card *ngFor="let card of deck" [card]="card">
     </app-card>
