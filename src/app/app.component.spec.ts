@@ -1,6 +1,8 @@
 import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { CardContainerComponent } from './card-container/card-container.component';
+import { CardComponent } from './card/card.component';
 
 describe('AppComponent', () => {
   let fixture: ComponentFixture<AppComponent>;
@@ -11,7 +13,9 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        CardContainerComponent,
+        CardComponent
       ],
     }).compileComponents().then(() => {
       fixture = TestBed.createComponent(AppComponent);

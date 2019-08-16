@@ -1,4 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { CardComponent } from '../card/card.component'
+import { AppComponent } from '../app.component'
 
 import { CardContainerComponent } from './card-container.component';
 
@@ -8,7 +10,7 @@ describe('CardContainerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CardContainerComponent ]
+      declarations: [ CardContainerComponent, CardComponent]
     })
     .compileComponents();
   }));
@@ -35,7 +37,7 @@ describe('CardContainerComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelectorAll('.playingCard').length).toBe(52);
   });
-  
+
   it('should call method shuffle on shuffle button press', async(() => {
       spyOn(component, 'shuffle')
 
