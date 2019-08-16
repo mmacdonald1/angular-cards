@@ -2,6 +2,8 @@
 
 A simple app that creates a deck of cards and allows you to shuffle them.
 
+** Fun fact: If you have the AdBlock Chrome extension on you won't be able to see the Ace of Diamonds (AD.png). Consider pausing to see all cards.
+
 See it live: https://mmacdonald1.github.io/angular-cards/
 
 ## Getting Started
@@ -19,14 +21,14 @@ Navigate into the file folder and install the dependencies.
 cd angular-cards
 npm i
 ```
-Run the file using npm and the project will come up in a new tab on your browser.
+Run the file using the command below and the project will come up in a new tab on your browser.
 
 ```
 ng serve
 ```
 ## Built With
 * Angular - framework
-* Bootstrap - package that integrates the Bootstrap styling libary with React
+* Bootstrap - styling library
 
 Thanks for the challenge. It was fun!
 
