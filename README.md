@@ -26,6 +26,11 @@ Run the file using the command below and the project will come up in a new tab o
 ```
 ng serve
 ```
+To run tests, open a new terminal tab and run tests.
+```
+ng test
+```
+
 ## Built With
 * Angular - framework
 * Bootstrap - styling library
